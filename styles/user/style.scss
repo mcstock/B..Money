@@ -1,0 +1,849 @@
+#body {
+    background: #ffffff;
+    width: 100vw;
+}
+
+#logo {
+    display: flex;
+    margin: 0;
+    margin-left: 2vw;
+    width: 7vw;
+}
+
+#herosec {
+    margin-top: 3.701vw;
+    margin-left: 1.480vw;
+}
+
+#container {
+    display: inline-block;
+}
+
+#title {
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.737vw;
+    line-height: 100%;
+    margin-left: 3vw;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+#subtitle {
+    margin-left: 2.221vw;
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-weight: 500;
+    font-size: 2.7vw;
+    line-height: 3vw;
+
+    color: #fafafa;
+    margin-top: 3.701vw;
+}
+
+#buttons {
+    display: flex;
+    margin-left: 3.701vw;
+    margin-top: 2vw;
+}
+
+#signinb {
+    box-sizing: border-box;
+    width: 15.227vw;
+    height: 5.625vw;
+    margin-right: 1.480vw;
+
+    background: #ef4123;
+    border: 0.074vws solid #FFFFFF;
+    border-radius: 3.701vw;
+}
+
+#signint {
+    text-align: center;
+
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.776vw;
+    line-height: 2.073vw;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#signupt {
+    text-align: center;
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.776vw;
+    line-height: 2.073vw;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+#signupb {
+    box-sizing: border-box;
+    height: 5.625vw;
+    width: 15.227vw;
+    border-radius: 3.701vw;
+
+    border: 0.074vw solid #ef4123;
+    border-radius: 3.701vw;
+
+}
+
+#buttons2 {
+    display: flex;
+    margin: 0;
+}
+
+#signinb2 {
+    box-sizing: border-box;
+    width: 6vw;
+    height: 3vw;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border: 0.074vw solid #000000;
+    border-radius: 3.701vw;
+}
+
+#signint2 {
+    text-align: center;
+    margin: 0;
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#signupt2 {
+    text-align: center;
+    margin: 0;
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+#signupb2 {
+    box-sizing: border-box;
+    width: 6vw;
+    height: 3vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.074vw solid #ffffff;
+    border-radius: 3.701vw;
+
+}
+
+#image {
+    background-image:
+        url("../../public/assets/images/background.gif");
+    background-size: cover;
+    filter: brightness(100%) contrast(120%);
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    right: 0;
+    bottom: 0;
+    height: 47.890vw;
+    width: 100vw;
+    background-blend-mode: multiply;
+}
+
+#ticker {
+    margin-top: 47.890vw;
+    margin-bottom: 0;
+}
+
+#gradbox {
+    padding: 0.370vw;
+    width: 100vw;
+    height: 16.654vw;
+    background: hsla(9, 86%, 54%, 1);
+
+    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+
+}
+
+#featurestitle {
+    text-align: center;
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.553vw;
+    line-height: 4.441vw;
+    color: #FFFFFF;
+    text-shadow: -0.666vw 0.740vw 0vw rgba(0, 0, 0, 0.45);
+}
+
+#sets {
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.set {
+    padding-left: 4.441vw;
+    margin-top: 5.181vw;
+    height: 14.212vw;
+    width: 72vw;
+    border-radius: 7.402vw;
+    align-self: center;
+}
+
+.settitle {
+    margin: 0vw;
+    padding-top: 1.480vw;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 2.665vw;
+    font-weight: 900;
+    line-height: 3.331vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.settext {
+    margin: 0vw;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 1.776vw;
+    font-weight: 450;
+    line-height: 2.221vw;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #000000;
+
+}
+
+#set4text {
+    margin-top: 1.480vw;
+    margin-left: 1.480vw;
+    margin-right: 1.480vw;
+}
+
+#set1 {
+    margin: 0vw;
+    background: #ef4123;
+}
+
+#set2 {
+    background: #E2A2D2;
+    ;
+}
+
+#set3 {
+    background: #99CED4;
+}
+
+#set4 {
+    background: #ef4123;
+}
+
+#services {
+    margin-top: 7.402vw;
+}
+
+#tiles {
+    display: flex;
+
+}
+
+.tile {
+    height: 20.355vw;
+    width: 25.537vw;
+    border-radius: 3.701vw;
+    margin: 3.701vw;
+    background: #FFFFFF;
+    padding-top: 1.4vw;
+    color: #000;
+    text-align: center;
+}
+
+
+.tiletext {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    margin: 0;
+    padding: 0.2vw;
+    font-size: 2.369vw;
+    font-weight: 500;
+    line-height: 2.961vw;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+#massage {
+    margin-left: 4.071vw;
+    margin-top: 5.922vw;
+}
+
+#massagebox {
+    height: 18.061vw;
+    width: 90vw;
+    background: hsla(9, 86%, 54%, 1);
+
+    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+
+    border-radius: 1.480vw;
+}
+
+#massagetitle {
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 3.553vw;
+    font-weight: 900;
+    line-height: 4.441vw;
+    letter-spacing: 0em;
+    margin: 0vw;
+    margin-left: 0.740vw;
+    padding: 0vw;
+    color: white;
+}
+
+#massagetext {
+    margin: 0vw;
+    margin-left: 2.221vw;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 1.480vw;
+    font-weight: 500;
+    line-height: 1.850vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.pagecard {
+    margin-bottom: 0;
+    margin: 4.3vw;
+    height: fit-content;
+    width: 91.118vw;
+    padding-top: 0.441vw;
+    border-radius: 2.441vw;
+    background: hsla(9, 86%, 54%, 1);
+
+    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    margin-bottom: 15vw;
+}
+
+.pagetitle {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 6.033vw;
+    font-weight: 900;
+    line-height: 4.441vw;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.pagetext {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    margin: 3vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 2.3vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    padding: 0;
+    padding-bottom: 4vw;
+}
+
+
+.servicecard {
+    background-color: #ef4123;
+    margin: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 5vw;
+}
+
+.pagesubtitle {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 2.665vw;
+    font-weight: 900;
+    line-height: 3.331vw;
+    letter-spacing: 0em;
+    margin: 2vw;
+    color: #ffffff;
+}
+
+
+.authpage {
+    height: fit-content;
+    padding-bottom: 50vh;
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: hsla(9, 86%, 54%, 1);
+
+    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+
+
+}
+
+.sidebar {
+    background: hsla(9, 86%, 54%, 1);
+
+    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+
+}
+
+.userpage {
+    background: hsla(9, 86%, 54%, 1);
+
+    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+
+}
+
+.dashboard {
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+}
+
+.usercard {
+    text-align: left;
+    background: rgb(22, 24, 29);
+    width: max-content;
+    height: max-content;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    border-radius: 10%;
+}
+
+#userimg {
+    margin-left: 10vw;
+    margin-top: 3vw;
+    padding: 0;
+    width: 28vw;
+    height: 25vw;
+    border-radius: 10%;
+}
+
+#userdetails {
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    color: #ffffff;
+    margin-left: 7vw;
+    margin-right: 5vw;
+}
+
+#mc {
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.737vw;
+    margin-top: 1vw;
+    color: rgb(247, 181, 0);
+}
+
+#stock {
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji';
+    font-style: normal;
+    margin-top: 1vw;
+    font-weight: 700;
+    font-size: 6.737vw;
+    color: rgb(116, 116, 116);
+}
+
+
+.contact {
+    margin-bottom: 0;
+    margin: 4.3vw;
+    margin-left: 3.3vw;
+    height: fit-content;
+    width: 90vw;
+    padding: 5vw;
+    text-align: left;
+    border-radius: 3vw;
+    background: hsla(9, 86%, 54%, 1);
+
+    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+
+    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    margin-bottom: 15vw;
+}
+
+.footer {
+    margin: 0;
+}
+
+#footergroup {
+    display: block;
+}
+
+.cash {
+    display: flex;
+    margin-left: 13vw;
+}
+
+.idcard {
+    width: 70vw;
+    margin-left: 8vw;
+}
+
+.phone-signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.phone-signup-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.phone-signup-form,
+.phone-verification-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.phone-signup-input,
+.phone-verification-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.phone-signup-button,
+.phone-verification-button {
+    background-color: #6d6d6d;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.phone-signup-button:hover,
+.phone-verification-button:hover {
+    background-color: #0069d9;
+}
+
+.phone-signup-error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.second_heroheader {
+    width: 100vw;
+    height: 80vh;
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+
+@media only screen and (max-width:480px) {
+
+    .second_heroheader {
+        width: 100vw;
+        height: 30vh;
+        padding-top: 2.5vh;
+        padding-left: 5vw;
+    }
+
+    #image {
+        height: 300px;
+    }
+
+    #logo {
+        width: 35vw;
+        height: 7.5vh;
+    }
+
+    #ticker {
+        margin-top: 300px;
+    }
+
+    #herosec {
+        margin-top: 4vw;
+        margin-left: 2vw
+    }
+
+    #title {
+
+        font-size: 8vw;
+    }
+
+    #subtitle {
+        font-size: 3.5vw;
+        line-height: 3.7vw;
+    }
+
+    #buttons {
+        margin-top: 1.5vw;
+        margin-left: 6vw;
+    }
+
+    #signinb {
+        width: 18vw;
+        height: 7vw;
+    }
+
+    #signupb {
+        width: 18vw;
+        height: 7vw;
+    }
+
+    #signint {
+        font-size: 2.5vw;
+    }
+
+    #signupt {
+        font-size: 2.5vw;
+    }
+
+    #signinb2 {
+        width: 18vw;
+        height: 7vw;
+    }
+
+    #signupb2 {
+        width: 18vw;
+        height: 7vw;
+    }
+
+    #signint2 {
+        font-size: 2.5vw;
+    }
+
+    #signupt2 {
+        font-size: 2.5vw;
+    }
+
+    #featurestitle {
+        font-size: 4vw;
+    }
+
+    #gradbox {
+        margin-bottom: 4vw;
+    }
+
+    .set {
+        height: 20vw;
+    }
+
+    .settitle {
+        font-size: 4vw;
+    }
+
+    .settext {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+
+    #massagebox {
+        height: 28vw;
+    }
+
+    #massagetitle {
+        font-size: 5vw;
+        padding-top: 2vw;
+    }
+
+    #massagetext {
+        font-size: 2.3vw;
+        line-height: 2vw;
+        padding-top: 4vw;
+    }
+
+    .pagecard {
+        border-radius: 10vw;
+    }
+
+    .pagetitle {
+        font-size: 9vw;
+        line-height: 9vw;
+
+        margin-bottom: 4vw;
+        margin: 0;
+
+        margin-top: 4vw;
+        text-align: center;
+    }
+
+    .pagetext {
+        font-size: 3.5vw;
+        line-height: 4vw;
+        margin: 4.4vw;
+
+    }
+
+    .pagesubtitle {
+        font-size: 4vw;
+        line-height: 4.2vw;
+        padding: 0;
+        margin: 0;
+        margin-top: 4vw;
+    }
+
+    .sidebaricon {
+        display: none;
+    }
+
+    .sidebar {
+        width: fit-content;
+    }
+
+    .logouticon {
+        display: none;
+    }
+
+    #groups {
+        display: flex;
+        text-align: left;
+
+    }
+
+    .authcard {
+        margin-left: 4vw;
+    }
+
+    .authpage {
+        padding-top: 40vw;
+        padding-bottom: 60vw;
+    }
+
+    .servicecard {
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    .usercard {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        padding-left: 1vw;
+    }
+
+    #userimg {
+        width: 35vw;
+        height: 35vw;
+        margin-left: 18.5vw;
+    }
+
+    #userdetails {
+        font-size: 5vw;
+        line-height: 6vw;
+        margin-left: 1.5vw;
+        margin-top: 3vw;
+        margin-right: 5vw;
+    }
+
+    .dashboard {
+        width: fit-content;
+        text-align: 'center';
+        padding-left: '5vw';
+    }
+
+    .cash {
+        display: block;
+        margin: 0;
+    }
+
+    .idcard {
+        margin-left: 0;
+    }
+
+    .contact {
+        margin-left: 0vw;
+    }
+
+    #footergroup {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:400px) {
+    #image {
+        height: 250px;
+    }
+
+    #ticker {
+
+        margin-top: 250px;
+
+    }
+
+
+}

@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main_cont{
+        height: 70%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .top_cont{
+            margin-bottom: 1.5rem;
+            .imgg{
+                height: 150px;
+                width: 150px;
+            }
+        }
+        .bottom_cont{
+            display: flex;
+            flex-direction: column;
+            .details{
+                font-size: 1.2rem;
+                font-weight: 550;
+            }
+        }
+    }
+
+}
