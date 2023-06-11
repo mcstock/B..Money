@@ -69,8 +69,7 @@ export default function Signup() {
     let extension = filename.split('.').pop();
     return extension;
   };
-  async function registerUser(e: any) {
-    e.preventDefault();
+  async function registerUser() {
     form.validate()
     let CurrentUserId: number;
     const UserId = await getDoc(doc(db, "util_variables", "UserId"));
@@ -89,8 +88,7 @@ export default function Signup() {
     const profPicStorageRef = ref(storage, `Users/${CurrentUserId}/profpic.${profPicFileExtension}`);
     const panPicStorageRef = ref(storage, `Users/${CurrentUserId}/panpic.${panPicFileExtension}`);
 
-    const handleVerify = async (e: any) => {
-      e.preventDefault();
+    const handleVerify = async () => {
       setIsLoading(true); 
       // Continue with user registration using the userCredential object
       const email = form.values.email;
@@ -158,7 +156,7 @@ export default function Signup() {
         }
         );
     }
-    handleVerify('e');
+    handleVerify();
   };
 
   const handleSignUp = async (e: any) => {
@@ -187,7 +185,7 @@ export default function Signup() {
       const userCredential = await signInWithCredential(auth, credential);
       console.log("User created successfully", userCredential);
       setError(null);
-      registerUser('e')
+      registerUser()
     }
     catch (error) {
       console.log(error);
