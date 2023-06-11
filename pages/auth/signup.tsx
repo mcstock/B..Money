@@ -91,6 +91,7 @@ export default function Signup() {
 
     const handleVerify = async (e: any) => {
       e.preventDefault();
+      setIsLoading(true); 
       // Continue with user registration using the userCredential object
       const email = form.values.email;
       const pass = form.values.password;
@@ -144,7 +145,7 @@ export default function Signup() {
           });
         })
         .then(()=>{
-          setIsLoading(true); 
+          
           router.push('../user/dashboard')
         })
         .catch((error) => {
