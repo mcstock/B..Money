@@ -38,6 +38,7 @@ export default function Signup() {
   const [verificationCode, setVerificationCode] = useState("");
   const [verificationId, setVerificationId] = useState("");
   const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter()
   const form = useForm({
     initialValues: {
@@ -68,7 +69,8 @@ export default function Signup() {
     let extension = filename.split('.').pop();
     return extension;
   };
-  async function registerUser() {
+  async function registerUser(e: any) {
+    e.preventDefault();
     form.validate()
     let CurrentUserId: number;
     const UserId = await getDoc(doc(db, "util_variables", "UserId"));
@@ -87,7 +89,8 @@ export default function Signup() {
     const profPicStorageRef = ref(storage, `Users/${CurrentUserId}/profpic.${profPicFileExtension}`);
     const panPicStorageRef = ref(storage, `Users/${CurrentUserId}/panpic.${panPicFileExtension}`);
 
-    const handleVerify = async () => {
+    const handleVerify = async (e: any) => {
+      e.preventDefault();
       // Continue with user registration using the userCredential object
       const email = form.values.email;
       const pass = form.values.password;
@@ -139,22 +142,26 @@ export default function Signup() {
             panpic: panPicUrl,
             profpic: profPicUrl,
           });
-
-          // Navigate to dashboard or user profile page
+        })
+        .then(()=>{
+          setIsLoading(true); 
           router.push('../user/dashboard')
         })
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
           console.log(errorCode, errorMessage);
+          alert("User Not Created")
+          setIsLoading(true);
           router.reload();
         }
         );
     }
-    handleVerify();
+    handleVerify('e');
   };
 
-  const handleSignUp = async () => {
+  const handleSignUp = async (e: any) => {
+    e.preventDefault();
     try {
       const appVerifier = new RecaptchaVerifier('recaptcha-container', {
         size: "normal",
@@ -178,7 +185,7 @@ export default function Signup() {
       const userCredential = await signInWithCredential(auth, credential);
       console.log("User created successfully", userCredential);
       setError(null);
-      registerUser()
+      registerUser('e')
     }
     catch (error) {
       console.log(error);

@@ -26,7 +26,7 @@ export default function Contactus() {
           </p>
 
           <p className='pagetext' style={{ marginTop: '0' }}>
-            Address: Near Himayat Nagar, Hyderabad, Andhra Pradesh - 500029</p>
+            Address:  Asif Ali Road New Delhi</p>
 
         </div>
       </div>

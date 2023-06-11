@@ -224,7 +224,7 @@ export default function HeaderMegaMenu() {
             <UnstyledButton className={classes.link} style={{ backgroundColor: '#ffffff1a', height: '10vh', border: '1px solid white' }} onClick={toggleLinks}>
               <Center inline>
                 <Box component="span" mr={5}>
-                  Features
+                  Services
                 </Box>
                 <IconChevronDown size={16} color="white" />
               </Center>
