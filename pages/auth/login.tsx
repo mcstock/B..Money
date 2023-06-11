@@ -94,7 +94,7 @@ export default function Login() {
             <Anchor<"a">
               href="signup"
               size="sm"
-              style={{ color: "#EF4123" }}
+              style={{ color: "white" }}
               onClick={(event) => router.push('/auth/signup')}
             >
               Create account
