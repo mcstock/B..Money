@@ -152,7 +152,7 @@ export default function Signup() {
           const errorMessage = error.message;
           console.log(errorCode, errorMessage);
           alert("User Not Created")
-          setIsLoading(true);
+          setIsLoading(false);
           router.reload();
         }
         );
@@ -174,6 +174,7 @@ export default function Signup() {
       setError(null);
     } catch (error) {
       console.log(error);
+      setIsLoading(false);
       router.reload();
     }
   };
@@ -190,6 +191,7 @@ export default function Signup() {
     catch (error) {
       console.log(error);
       alert('enter correct otp')
+      setIsLoading(false);
       router.reload();
     }
   };
@@ -222,6 +224,10 @@ export default function Signup() {
 
           <Paper withBorder shadow="md" p={30} mt={30} radius="md">
             <form onSubmit={form.onSubmit(() => form.validate())} >
+            {isLoading ? (
+                <div className="loader">Loading...</div>
+              ) : (
+                <>
               <TextInput
                 label="Name"
                 placeholder="Name"
@@ -336,6 +342,8 @@ export default function Signup() {
                   <Button style={{ backgroundColor: "#EF4123" }} fullWidth mt="xl" type="submit" onClick={handleVerifyCode}>Register</Button>
                 </div>
               )}
+              </>
+)}
             </form>
           </Paper>
         </Container>
