@@ -56,7 +56,7 @@
     height: 5.625vw;
     margin-right: 1.480vw;
 
-    background: #ef4123;
+    background: rgb(173, 41, 18);
     border: 0.074vws solid #FFFFFF;
     border-radius: 3.701vw;
 }
@@ -95,7 +95,7 @@
     width: 15.227vw;
     border-radius: 3.701vw;
 
-    border: 0.074vw solid #ef4123;
+    border: 0.074vw solid rgb(173, 41, 18);
     border-radius: 3.701vw;
 
 }
@@ -182,13 +182,13 @@
     padding: 0.370vw;
     width: 100vw;
     height: 16.654vw;
-    background: hsla(9, 86%, 54%, 1);
+    background: rgb(173, 41, 18);
 
-    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -moz-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -webkit-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
 
 }
@@ -251,7 +251,7 @@
 
 #set1 {
     margin: 0vw;
-    background: #ef4123;
+    background: rgb(173, 41, 18);
 }
 
 #set2 {
@@ -264,7 +264,7 @@
 }
 
 #set4 {
-    background: #ef4123;
+    background: rgb(173, 41, 18);
 }
 
 #services {
@@ -309,13 +309,13 @@
 #massagebox {
     height: 18.061vw;
     width: 90vw;
-    background: hsla(9, 86%, 54%, 1);
+    background: rgb(173, 41, 18);
 
-    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -moz-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -webkit-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
 
     border-radius: 1.480vw;
@@ -353,13 +353,13 @@
     width: 91.118vw;
     padding-top: 0.441vw;
     border-radius: 2.441vw;
-    background: hsla(9, 86%, 54%, 1);
+    background: rgb(173, 41, 18);
 
-    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -moz-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -webkit-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
     margin-bottom: 15vw;
 }
 
@@ -388,7 +388,7 @@
 
 
 .servicecard {
-    background-color: #ef4123;
+    background-color: rgb(173, 41, 18);
     margin: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -416,53 +416,41 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: hsla(9, 86%, 54%, 1);
-
-    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
-
-    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
-
-    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
-
-
-
+    background-image:url("../../public/assets/images/4.webp");
+    background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .sidebar {
-    background: hsla(9, 86%, 54%, 1);
+    background: rgb(173, 41, 18);
 
-    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33) 100%);
 
-    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -moz-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -webkit-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
 
 }
 
 .userpage {
-    background: hsla(9, 86%, 54%, 1);
-
-    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
-
-    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
-
-    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
-
-
+    background: rgb(206, 206, 206);
 }
 
 .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
     width: fit-content;
     height: fit-content;
     padding: 0;
 }
 
 .usercard {
+    
     text-align: left;
-    background: rgb(22, 24, 29);
-    width: max-content;
-    height: max-content;
+    background: rgba(102, 102, 102, 0.459);
     padding-top: 6vw;
     padding-bottom: 6vw;
     padding-right: 2vw;
@@ -471,11 +459,12 @@
 }
 
 #userimg {
-    margin-left: 10vw;
+    align-self: center;
     margin-top: 3vw;
+    margin-bottom: 3vw;
     padding: 0;
-    width: 28vw;
-    height: 25vw;
+    width: 20vw;
+    height: auto;
     border-radius: 10%;
 }
 
@@ -519,13 +508,13 @@
     padding: 5vw;
     text-align: left;
     border-radius: 3vw;
-    background: hsla(9, 86%, 54%, 1);
+    background: rgb(173, 41, 18);
 
-    background: linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -moz-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -moz-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
 
-    background: -webkit-linear-gradient(255deg, hsla(9, 86%, 54%, 1) 0%, rgb(252, 161, 101) 100%);
+    background: -webkit-linear-gradient(255deg, rgb(173, 41, 18) 0%, rgb(216, 106, 33)  100%);
     margin-bottom: 15vw;
 }
 
@@ -612,6 +601,10 @@
 }
 
 @media only screen and (max-width:480px) {
+
+    #portfolio_table{
+        width: 60vw;
+    }
 
     .second_heroheader {
         width: 100vw;
@@ -790,19 +783,21 @@
     }
 
     .usercard {
+        
         padding-top: 10vw;
         padding-bottom: 10vw;
         padding-left: 1vw;
+        padding-right: 1vw;
+        width: 94%;
     }
 
     #userimg {
         width: 35vw;
         height: 35vw;
-        margin-left: 18.5vw;
     }
 
     #userdetails {
-        font-size: 5vw;
+        font-size: 4vw;
         line-height: 6vw;
         margin-left: 1.5vw;
         margin-top: 3vw;
@@ -810,6 +805,7 @@
     }
 
     .dashboard {
+        padding-top: 10vh;
         width: fit-content;
         text-align: 'center';
         padding-left: '5vw';

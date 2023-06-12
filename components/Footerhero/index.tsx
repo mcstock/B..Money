@@ -155,7 +155,7 @@ export function FooterLinks() {
   });
 
   return (
-    <footer className={classes.footer} style={{ backgroundColor: '#ef4123' }}>
+    <footer className={classes.footer} style={{ backgroundColor: 'rgb(173, 41, 18)' }}>
       <Container className={classes.inner}>
         <div className={classes.logo}>
           <Image src={Logo} />

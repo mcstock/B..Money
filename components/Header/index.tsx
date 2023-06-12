@@ -33,8 +33,8 @@ const useStyles = createStyles((theme) => ({
     paddingRight: theme.spacing.md,
     textDecoration: "none",
     color: "white",
-    fontWeight: 500,
-    fontSize: theme.fontSizes.sm,
+    fontWeight: 900,
+    fontSize: theme.fontSizes.md,
 
     [theme.fn.smallerThan("sm")]: {
       height: 42,
@@ -141,9 +141,9 @@ export default function HeaderMegaMenu() {
   ));
 
   return (
-    <Box pb={10} style={{ background: '#ef4123' }}>
+    <Box style={{ background: 'rgb(173, 41, 18)' }}>
       <Group position="apart" sx={{ height: "100%" }}>
-        <div id="logo" style={{ width: 70, height: 'auto' }} >
+        <div id="logo" style={{ width: 120, height: 'auto' }} >
           <Link href="/"><Image src={Logo} /></Link>
         </div>
         <Group

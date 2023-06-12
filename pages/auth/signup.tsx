@@ -205,13 +205,14 @@ export default function Signup() {
       <Head>
         <title>Register</title>
       </Head>
-      <HeaderMegaMenu />
+      
       <div className="authpage">
         <Container size={420}>
           <Title
             align="center"
             sx={(theme) => ({
               fontFamily: `Greycliff CF, ${theme.fontFamily}`,
+              color:'white',
               fontWeight: 900,
             })}
           >
@@ -221,7 +222,7 @@ export default function Signup() {
             Be a part of B-Money Family{" "}
           </Text>
 
-          <Paper withBorder shadow="md" p={30} mt={30} radius="md">
+          <Paper withBorder style={{background:'#c0c0c066'}} p={30} mt={30} radius="md">
             <form onSubmit={form.onSubmit(() => form.validate())} >
             {isLoading ? (
                 <div className="loader">Loading...</div>
@@ -233,6 +234,7 @@ export default function Signup() {
                 {...form.getInputProps("name")}
                 icon={<IconUser size={14} />}
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <TextInput
                 label="Email"
@@ -241,6 +243,7 @@ export default function Signup() {
                 icon={<IconAt size={14} />}
                 mt="md"
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <NumberInput
                 label="Mobile No"
@@ -251,6 +254,7 @@ export default function Signup() {
                 icon={<IconPhone size={14} />}
                 mt="md"
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <NumberInput
                 label="Aadhar Number"
@@ -261,6 +265,7 @@ export default function Signup() {
                 icon={<IconPhone size={14} />}
                 mt="md"
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <TextInput
                 label="PAN"
@@ -269,6 +274,7 @@ export default function Signup() {
                 icon={<IconWriting size={14} />}
                 mt="md"
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <PasswordInput
                 label="Password"
@@ -277,6 +283,7 @@ export default function Signup() {
                 {...form.getInputProps("password")}
                 icon={<IconLock size={14} />}
                 required
+                labelProps={{ sx: {color:'white'} }}
                 mt="md"
               />
               <PasswordInput
@@ -287,6 +294,7 @@ export default function Signup() {
                 icon={<IconLock size={14} />}
                 {...form.getInputProps("confirmPassword")}
                 required
+                labelProps={{ sx: {color:'white'} }}
                 mt="md"
               />
               <FileInput
@@ -296,6 +304,7 @@ export default function Signup() {
                 {...form.getInputProps("aadharfront")}
                 icon={<IconUpload size={14} />}
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <FileInput
                 mt="md"
@@ -304,6 +313,7 @@ export default function Signup() {
                 {...form.getInputProps("aadharback")}
                 icon={<IconUpload size={14} />}
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <FileInput
                 mt="md"
@@ -312,6 +322,7 @@ export default function Signup() {
                 {...form.getInputProps("panpic")}
                 icon={<IconUpload size={14} />}
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               <FileInput
                 mt="md"
@@ -320,10 +331,11 @@ export default function Signup() {
                 {...form.getInputProps("profpic")}
                 icon={<IconUpload size={14} />}
                 required
+                labelProps={{ sx: {color:'white'} }}
               />
               {!verificationId && (<div id="recaptcha-container"></div>)}
               {!verificationId && (<Button fullWidth mt="xl" type="submit"
-                style={{ backgroundColor: "#EF4123" }}
+                style={{ backgroundColor: "#0d1b29" }}
                 onClick={handleSignUp}
               >
                 Send OTP
@@ -336,9 +348,10 @@ export default function Signup() {
                     onChange={handleVerificationCodeChange}
                     value={verificationCode}
                     required
+                labelProps={{ sx: {color:'white'} }}
                     mt="md"
                   />
-                  <Button style={{ backgroundColor: "#EF4123" }} fullWidth mt="xl" type="submit" onClick={handleVerifyCode}>Register</Button>
+                  <Button style={{ backgroundColor: "#0d1b29" }} fullWidth mt="xl" type="submit" onClick={handleVerifyCode}>Register</Button>
                 </div>
               )}
               </>

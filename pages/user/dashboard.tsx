@@ -39,19 +39,18 @@ export default function Dashboard() {
       </Head>
       <div className="userpage">
         <AppShell
-          padding="md"
           navbar={<NavbarSimple />}
-          header={<HeaderMegaMenu />}
         >
           <div className={styles.container}>
             <div className={styles.main_cont}>
               {data && (
                 <>
                   <div className="dashboard">
+                  <img src={data.profpic} id="userimg"></img>
                     <div className="usercard">
 
                       <div className={styles.top_cont}>
-                        <img src={data.profpic} id="userimg"></img>
+                        
                         <div className={styles.bottom_cont}>
                           <div className={styles.details} id="userdetails">Name : {data.name} </div>
                           <div className={styles.details} id="userdetails">Client Id : {data.userid}</div>

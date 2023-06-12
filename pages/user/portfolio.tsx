@@ -51,11 +51,9 @@ export default function Reports() {
       </Head>
       <div className="userpage">
         <AppShell
-          padding="md"
           navbar={<NavbarSimple />}
-          header={<HeaderMegaMenu />}
         >
-          <div style={{ width: '70vw', textAlign: 'center', paddingLeft: '5vw' }}>
+          <div style={{ textAlign: 'center'}} id="portfolio_table">
             <Paper withBorder shadow="md" p={30} mt={30} radius="md">
               <Title
                 align="center"

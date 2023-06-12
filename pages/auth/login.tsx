@@ -37,7 +37,7 @@ export default function Login() {
 
     validate: {
       userid: (value: string) =>
-        value.length != 6 ? "ClientId must have 6 characters" : null,
+        value.length < 6 ? "ClientId must have 6 characters" : null,
     },
   });
   const loginWithUserIdandPassword = async () => {
@@ -77,13 +77,14 @@ export default function Login() {
       <Head>
         <title>Login</title>
       </Head>
-      <HeaderMegaMenu />
+      
       <div className="authpage">
         <Container size={420}>
           <Title
             align="center"
             sx={(theme) => ({
               fontFamily: `Greycliff CF, ${theme.fontFamily}`,
+              color:'white',
               fontWeight: 900,
             })}
           >
@@ -94,30 +95,32 @@ export default function Login() {
             <Anchor<"a">
               href="signup"
               size="sm"
-              style={{ color: "white" }}
+              style={{ color: "white",textDecoration:'underline'}}
               onClick={(event) => router.push('/auth/signup')}
             >
               Create account
             </Anchor>
           </Text>
 
-          <Paper withBorder shadow="md" p={30} mt={30} radius="md">
+          <Paper withBorder style={{background:'#c0c0c066'}} p={30} mt={30} radius="md">
             <TextInput
               label="ClientId"
               placeholder="000000"
               required
+                labelProps={{ sx: {color:'white'} }}
               {...form.getInputProps("userid")}
             />
             <PasswordInput
               label="Password"
               placeholder="Your password"
               required
+                labelProps={{ sx: {color:'white'} }}
               mt="md"
               {...form.getInputProps("password")}
             />
             <Group position="apart" mt="md">
               <Anchor<"a">
-                style={{ textDecoration: "none", color: "red" }}
+                style={{ textDecoration: "none", color: "#0d1b29" }}
                 onClick={(event) => router.push('/auth/forgot')}
                 href="#"
                 size="sm"
@@ -125,7 +128,7 @@ export default function Login() {
                 Forgot password?
               </Anchor>
             </Group>
-            <Button style={{ backgroundColor: "#EF4123" }} fullWidth mt="xl" onClick={loginFunction}>
+            <Button style={{ backgroundColor: "#0d1b29" }} fullWidth mt="xl" onClick={loginFunction}>
               Log in
             </Button>
           </Paper>

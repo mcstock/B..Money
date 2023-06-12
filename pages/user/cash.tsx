@@ -79,7 +79,7 @@ export default function Cash() {
           withAsterisk
         />
 
-        <Button style={{ backgroundColor: "#EF4123" }} fullWidth mt={10} onClick={payin}>
+        <Button style={{ backgroundColor: "rgb(173, 41, 18)" }} fullWidth mt={10} onClick={payin}>
           Pay In
         </Button>
       </Paper>
@@ -91,7 +91,7 @@ export default function Cash() {
           label="Enter Amount for Pay Out"
           withAsterisk
         />
-        <Button style={{ backgroundColor: "#EF4123" }} fullWidth mt={10} onClick={payout}>
+        <Button style={{ backgroundColor: "rgb(173, 41, 18)" }} fullWidth mt={10} onClick={payout}>
           Pay Out
         </Button>
       </Paper>

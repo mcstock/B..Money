@@ -39,7 +39,7 @@ export default function Bank() {
         <AppShell
           padding="md"
           navbar={<NavbarSimple />}
-          header={<HeaderMegaMenu />}
+          
         >
           <div className="idcard">
             <Paper withBorder shadow="md" p="" radius="md">

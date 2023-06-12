@@ -12,6 +12,9 @@ import {
   IconReport,
   IconFile,
 } from '@tabler/icons';
+import Link from 'next/link';
+import Image from 'next/image';
+import Logo from "../../public/assets/images/logo.png";
 import { useRouter } from 'next/router';
 import { logOut } from '../../firebase/functions';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -100,13 +103,15 @@ export function NavbarSimple() {
         router.push(item.link)
       }}
     >
-      <div className='sidebaricon'><item.icon style={{ color: 'white' }} className={classes.linkIcon} stroke={1.5} /></div>
       <span style={{ color: 'white' }}>{item.label}</span>
     </a>
   ));
 
   return (
     <div className='sidebar'>
+      <div style={{ width: 120, height: 'auto' }} >
+          <Link href="/"><Image src={Logo} /></Link>
+        </div>
       <div>
         {links}
       </div>
@@ -119,7 +124,6 @@ export function NavbarSimple() {
             router.push('/auth/login')
           }
         }>
-          <div className='logouticon'><IconLogout style={{ color: 'white' }} className='sidebaricon' stroke={1.5} /></div>
           <span style={{ color: 'white' }}>Logout</span>
         </a>
       </div>

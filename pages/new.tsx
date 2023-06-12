@@ -64,11 +64,11 @@ export default function New() {
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
                                 <Link href="/auth/login" target="_blank" className="orange_apply_now">
 
-                                    <div style={{ background: '#ef4123', border: '1px solid #ef4123', padding: '5px 20px 5px 20px', marginRight: '20px', borderRadius: 5, width: 'fit-content', textAlign: 'center', alignSelf: 'center', color: 'white' }} >Login</div>
+                                    <div style={{ background: 'rgb(173, 41, 18)', border: '1px solid rgb(173, 41, 18)', padding: '5px 20px 5px 20px', marginRight: '20px', borderRadius: 5, width: 'fit-content', textAlign: 'center', alignSelf: 'center', color: 'white' }} >Login</div>
                                 </Link>
                                 <Link href="/auth/signup" target="_blank" className="orange_apply_now">
 
-                                    <div style={{ background: 'white', border: '1px solid #ef4123', padding: '5px 20px 5px 20px', borderRadius: 5, width: 'fit-content', textAlign: 'center', alignSelf: 'center', color: '#ef4123' }} >SignUp</div>
+                                    <div style={{ background: 'white', border: '1px solid rgb(173, 41, 18)', padding: '5px 20px 5px 20px', borderRadius: 5, width: 'fit-content', textAlign: 'center', alignSelf: 'center', color: 'rgb(173, 41, 18)' }} >SignUp</div>
                                 </Link>
                             </div>
                         </div>

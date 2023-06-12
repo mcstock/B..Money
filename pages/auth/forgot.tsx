@@ -74,7 +74,7 @@ export default function Login() {
       <Head>
         <title>Forgot Password</title>
       </Head>
-      <HeaderMegaMenu />
+      
       <div className="authpage">
         <Container size={420}>
           <Title
@@ -91,23 +91,24 @@ export default function Login() {
             <Anchor<"a">
               href="signup"
               size="sm"
-              style={{ color: "white" }}
+              style={{ color: "white",textDecoration:'underline' }}
               onClick={(event) => event.preventDefault()}
             >
               Create account
             </Anchor>
           </Text>
 
-          <Paper withBorder shadow="md" p={30} mt={30} radius="md">
+          <Paper withBorder style={{background:'#c0c0c066'}} p={30} mt={30} radius="md">
             <TextInput
               label="ClientId"
               placeholder="000000"
               required
+                labelProps={{ sx: {color:'white'} }}
               {...form.getInputProps("userid")}
             />
 
             <Group position="apart" mt="md"></Group>
-            <Button style={{ backgroundColor: "#EF4123" }} fullWidth mt="xl" onClick={resetPass}>
+            <Button style={{ backgroundColor: "#0d1b29" }} fullWidth mt="xl" onClick={resetPass}>
               Sent Reset Link
             </Button>
           </Paper>

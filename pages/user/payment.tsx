@@ -11,6 +11,11 @@ import {
 import { DatePicker } from "@mantine/dates";
 import { useForm } from "@mantine/form";
 import {
+  TickerSymbol,
+  TickerTape,
+  TickerTapeSymbol,
+} from "react-ts-tradingview-widgets";
+import {
   addDoc,
   collection,
   doc,
@@ -41,6 +46,36 @@ export default function Dashboard() {
     }
   })
 
+  const symbols: TickerSymbol[] = [
+    {
+        title: "",
+        proName: "NASDAQ:AMZN",
+    },
+    {
+        title: "",
+        proName: "NASDAQ:NFLX",
+    },
+    {
+        title: "",
+        proName: "BSE:FEDERALBNK",
+    },
+    {
+        title: "",
+        proName: "BSE:BANKBARODA",
+    },
+    {
+        title: "",
+        proName: "BSE:NIFTYBEES",
+    },
+    {
+        title: "",
+        proName: "BSE:SBIN",
+    },
+    {
+        title: "",
+        proName: "BSE:GUJGAS",
+    },
+];
   return (
     <><Head>
       <title>Bank</title>
@@ -49,8 +84,9 @@ export default function Dashboard() {
         <AppShell
           padding="md"
           navbar={<NavbarSimple />}
-          header={<HeaderMegaMenu />}
+          
         >
+          <TickerTape symbols={symbols} colorTheme="dark"></TickerTape>
           <div className="idcard">
             <Cash />
 

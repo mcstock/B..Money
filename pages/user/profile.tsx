@@ -60,7 +60,7 @@ export default function Dashboard() {
         <AppShell
           padding="md"
           navbar={<NavbarSimple />}
-          header={<HeaderMegaMenu />}
+          
         >
           <Title
             align="center"

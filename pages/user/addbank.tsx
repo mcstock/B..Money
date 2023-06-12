@@ -102,7 +102,7 @@ export default function AddBank() {
         <AppShell
           padding="md"
           navbar={<NavbarSimple />}
-          header={<HeaderMegaMenu />}
+          
         >
           <Paper withBorder shadow="md" p={30} mt={30} radius="md">
             <Title
@@ -180,7 +180,7 @@ export default function AddBank() {
               mt="md"
               required
             />
-            <Button style={{ backgroundColor: "#EF4123" }} fullWidth mt="xl" type="submit"
+            <Button style={{ backgroundColor: "rgb(173, 41, 18)" }} fullWidth mt="xl" type="submit"
               onClick={updateBankDetails}
             >
               Update Details
