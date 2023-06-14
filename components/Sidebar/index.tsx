@@ -11,6 +11,7 @@ import {
   IconFileText,
   IconReport,
   IconFile,
+  IconListCheck
 } from '@tabler/icons';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -84,6 +85,8 @@ const data = [
   { link: '/user/addbank', label: 'Add Bank Details', icon: IconCash },
   { link: '/user/payment', label: 'Payment', icon: IconFileText },
   { link: '/user/portfolio', label: 'Portfolio', icon: IconReport },
+  { link: '/user/watchlist', label: 'WatchList', icon:   IconListCheck
+},
 ];
 
 export function NavbarSimple() {
@@ -103,6 +106,7 @@ export function NavbarSimple() {
         router.push(item.link)
       }}
     >
+      <div className='sidebaricon'><item.icon style={{ color: 'white' }} className={classes.linkIcon} stroke={1.5} /></div>
       <span style={{ color: 'white' }}>{item.label}</span>
     </a>
   ));
@@ -124,6 +128,7 @@ export function NavbarSimple() {
             router.push('/auth/login')
           }
         }>
+          <div className='logouticon'><IconLogout style={{ color: 'white' }} className='sidebaricon' stroke={1.5} /></div>
           <span style={{ color: 'white' }}>Logout</span>
         </a>
       </div>
