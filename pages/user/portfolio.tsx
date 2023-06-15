@@ -51,6 +51,7 @@ export default function Reports() {
       </Head>
       <div className="userpage">
         <AppShell
+        header={<HeaderMegaMenu />}
           navbar={<NavbarSimple />}
         >
           <div style={{ textAlign: 'center'}} id="portfolio_table">

@@ -38,6 +38,7 @@ export default function Bank() {
       <div className="userpage">
         <AppShell
           padding="md"
+          header={<HeaderMegaMenu />}
           navbar={<NavbarSimple />}
           
         >

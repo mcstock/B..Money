@@ -101,6 +101,7 @@ export default function AddBank() {
       <div className="userpage">
         <AppShell
           padding="md"
+          header={<HeaderMegaMenu />}
           navbar={<NavbarSimple />}
           
         >

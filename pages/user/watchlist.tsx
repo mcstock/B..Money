@@ -93,6 +93,7 @@ import { IconListSearch } from "@tabler/icons";
         <div className="userpage">
           <AppShell
             padding="md"
+            header={<HeaderMegaMenu />}
             navbar={<NavbarSimple />}
             
           >

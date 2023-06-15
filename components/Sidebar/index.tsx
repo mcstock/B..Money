@@ -113,9 +113,6 @@ export function NavbarSimple() {
 
   return (
     <div className='sidebar'>
-      <div style={{ width: 120, height: 'auto' }} >
-          <Link href="/"><Image src={Logo} /></Link>
-        </div>
       <div>
         {links}
       </div>

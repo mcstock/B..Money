@@ -39,6 +39,7 @@ export default function Dashboard() {
       </Head>
       <div className="userpage">
         <AppShell
+        header={<HeaderMegaMenu />}
           navbar={<NavbarSimple />}
         >
           <div className={styles.container}>
