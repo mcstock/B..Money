@@ -49,7 +49,7 @@ export default function Bank() {
 
               {/* <Image src={qr} style={{ height: "80%", width: "150px" }} /> */}
 
-              <Link href=''><h3>Click Here to Pay</h3></Link>
+              <Link href=''><h3>exchangin@axl</h3></Link>
 
             </Paper>
             <Paper withBorder shadow="md" pl={30} pr={30} pt={5} mt={30} radius="md">
